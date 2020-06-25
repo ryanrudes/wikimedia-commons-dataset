@@ -26,6 +26,4 @@ Setup is fairly simple:
 
 When the program begins (note that it will not print anything to the console), you will notice subdirectories beginning to appear within the "Images" folder. In addition, a text file, titled "Sitemap.txt" will appear in the directory, which will contain the categories, with each additional subcategory indented approperiately. Over time, these subdirectories will become filled with images corresponding to the description provided by each particular folder's name. This organization of image content is identical to that of the Wikimedia Commons collection, which you can view [here](https://commons.wikimedia.org/wiki/Category:Categories).
 
-I began running the data scraper just a few minutes ago (I will update the following statistic daily): 5,630 total images.
-
-I expect somewhere near 250,000 images by tomorrow at this time.
+If you would like to contribute computational resources to this effort, simply message me at my preferred email address (ryanrudes@gmail.com), which is listed on my Github profile.
