@@ -1,5 +1,4 @@
 # Wikimedia Commons Image Dataset
-<ins>The Largest Image Dataset For Machine Learning</ins>
 
 Wikimedia Commons is an online repository of openly-available media files, such as image, audio, video, and JSON files. You may view the current quantity of available content [here](https://commons.wikimedia.org/wiki/Special:MediaStatistics).
 
