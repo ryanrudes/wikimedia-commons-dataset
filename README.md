@@ -19,8 +19,9 @@ Depending upon the computational power at your availability, the time required w
 
 Once the dataset is fully completed, I will compress it into a zip file, and add it to this repo. In the meanwhile, feel free to do some datascraping yourself.
 
-Setup is fairly simple. cd to the approperiate directory, then install the required packages (if they are not installed already on your machine) with: ```pip3 install -r requirements.txt```
+Setup is fairly simple:
+1.  cd to the approperiate directory, then install the required packages (if they are not installed already on your machine) with: ```pip3 install -r requirements.txt```
+2.  Next, create an empty folder, titled "Images", inside of the directory.
+3.  Finally, of course, you must run to begin data scraping ```python3 scrape_wikimedia.py```.
 
-Then, all you must do to run the data scraper is, of course, ```python3 scrape_wikimedia.py```.
-
-When the program begins (note that it will not print anything to the console), you will notice subdirectories beginning to appear within the "Images" folder. Over time, these subdirectories will be filled with images cooresponding to the description provided by each particular folder's name. This organization is identical to that of the Wikimedia Commons content collection, which you can view [here](https://commons.wikimedia.org/wiki/Category:Categories).
+When the program begins (note that it will not print anything to the console), you will notice subdirectories beginning to appear within the "Images" folder. In addition, a text file, titled "Sitemap.txt" will appear in the directory, which will contain the categories, with each additional subcategory indented approperiately. Over time, these subdirectories will become filled with images corresponding to the description provided by each particular folder's name. This organization of image content is identical to that of the Wikimedia Commons collection, which you can view [here](https://commons.wikimedia.org/wiki/Category:Categories).
