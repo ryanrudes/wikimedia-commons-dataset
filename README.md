@@ -1,5 +1,7 @@
 # Wikimedia Commons Image Dataset
 
+<ins>The most oragnized image dataset for machine learning.</ins>
+
 Wikimedia Commons is an online repository of openly-available media files, such as image, audio, video, and JSON files. You may view the current quantity of available content [here](https://commons.wikimedia.org/wiki/Special:MediaStatistics).
 
 As of June 24, 2020, the database consists of approximately 56.47 million files of image content of file format .jpg, .jpeg, or .png.
