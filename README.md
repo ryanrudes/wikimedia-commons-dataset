@@ -24,5 +24,3 @@ Setup is fairly simple. cd to the approperiate directory, then install the requi
 Then, all you must do to run the data scraper is, of course, ```python3 scrape_wikimedia.py```.
 
 When the program begins (note that it will not print anything to the console), you will notice subdirectories beginning to appear within the "Images" folder. Over time, these subdirectories will be filled with images cooresponding to the description provided by each particular folder's name. This organization is identical to that of the Wikimedia Commons content collection, which you can view [here](https://commons.wikimedia.org/wiki/Category:Categories).
-
-Enjoy!
