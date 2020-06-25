@@ -57,18 +57,28 @@ I will respond by sending a slightly modified copy of the Python file, adapted t
   * Issues:
     1.  Parser does not search for categories listed on split pages. If a page on Wikimedia Commons lists a large number of categories, it is often split into two or more pages. The parser is not designed to search for these yet.
     2.  Rare improper parsing of image directories, resulting in issues pertaining to directories not being found.
+    3.  The improper parsing of categories from a Wikimedia Commons page results in undesired stopping of the data scraper program, which encounters an error upon this occurance.
+    4.  When save directory contains the forward slash character, a confusion occurs, because the program interprets the "/" as a different subdirectory than the one actually desired.
  
 - __v1.2__ <br/>
   * Updates since v1.1:
     1.  Fixed issue #2 from v1.1
   * Issues:
     1.  Parser does not search for categories listed on split pages. If a page on Wikimedia Commons lists a large number of categories, it is often split into two or more pages. The parser is not designed to search for these yet.
-    2.  The improper parsing of categories from a Wikimedia Commons page results in undesired stopping of the data scraper program, which encounters an error upon this occurance
+    2.  The improper parsing of categories from a Wikimedia Commons page results in undesired stopping of the data scraper program, which encounters an error upon this occurance.
+    3.  When save directory contains the forward slash character, a confusion occurs, because the program interprets the "/" as a different subdirectory than the one actually desired.
 
 - __v1.3__: <br/>
   * Updates since v1.2:
     1.  Fixed issue #2 from v1.2
   * Issues:
     1.  Parser does not search for categories listed on split pages. If a page on Wikimedia Commons lists a large number of categories, it is often split into two or more pages. The parser is not designed to search for these yet.
+    2.  When save directory contains the forward slash character, a confusion occurs, because the program interprets the "/" as a different subdirectory than the one actually desired.
     
-- __v1.4__: Coming soon; will fix issue #1 from v1.3. Future versions will simply improve upon the speed of the data scraper.
+- __v1.4__: <br/>
+  * Updates since v1.3:
+    1.  Fixed issue #2 from v1.3
+  * Issues:
+    1.  Parser does not search for categories listed on split pages. If a page on Wikimedia Commons lists a large number of categories, it is often split into two or more pages. The parser is not designed to search for these yet.
+
+- __v1.5__: Coming soon; will fix issue #1 from v1.4. Future versions will simply improve upon the speed of the data scraper, and fix new bugs, if any are found.
