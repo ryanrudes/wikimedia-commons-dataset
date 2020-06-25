@@ -18,6 +18,8 @@ Although this method of extraction and download is faster, the dataset is still 
 
 Once the dataset is fully completed, I will compress it into a zip file, and add it to this repo. In the meanwhile, feel free to do some datascraping yourself, or, if you'd like to contribute computational resources, see below*.
 
+I highly recommend always using the most recent version of the data scraper; it will not require any additional installations.
+
 Setup is fairly simple:
 1.  cd to the approperiate directory, then install the required packages (if they are not installed already on your machine) with: ```pip3 install -r requirements.txt```
 2.  Next, create an empty folder, titled "Images", inside of the directory.
