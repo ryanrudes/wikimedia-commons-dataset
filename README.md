@@ -60,7 +60,7 @@ I will respond by sending a slightly modified copy of the Python file, adapted t
  
 - __v1.2__ <br/>
   * Updates since v1.1:
-    1.  Fxied issue #2 from v1.1
+    1.  Fixed issue #2 from v1.1
   * Issues:
     1.  Parser does not search for categories listed on split pages. If a page on Wikimedia Commons lists a large number of categories, it is often split into two or more pages. The parser is not designed to search for these yet.
     
