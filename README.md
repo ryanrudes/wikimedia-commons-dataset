@@ -23,7 +23,7 @@ I highly recommend always using the most recent version of the data scraper; it 
 Setup is fairly simple:
 1.  cd to the approperiate directory, then install the required packages (if they are not installed already on your machine) with: ```pip3 install -r requirements.txt```
 2.  Next, create an empty folder, titled "Images", inside of the directory.
-3.  Finally, of course, you must run this command to begin data scraping ```python3 scrape_wikimedia.py``` (or the approperiate filename, once additional versions are added to this repo).
+3.  Finally, of course, you must run this command to begin data scraping ```python3 scrape_wikimedia_v1.2.py``` (or the approperiate filename corresponding to the most recent version).
 
 When the program begins (note that if you are running v1.0, it will not print anything to the console), you will notice subdirectories beginning to appear within the "Images" folder. In addition, a text file, titled "Sitemap.txt" will appear in the directory, which will contain the categories, with each additional subcategory indented approperiately. Over time, these subdirectories will become filled with images corresponding to the description provided by each particular folder's name. This organization of image content is identical to that of the Wikimedia Commons collection, which you can view [here](https://commons.wikimedia.org/wiki/Category:Categories).
 
