@@ -14,6 +14,8 @@ This Python script, however, recursively iterates over all categories and subcat
 
 The speed of content extracting matches, and likely surpasses the rate of the official Wikipedia Commons Python API, thus providing benefits towards computational time required. On a Google Colab high-RAM runtime, it averages 14-17 images, downloaded, labeled, and categorized approperiately, each second.
 
+However, I suggest using the free GPU provided by [paperspace.com](paperspace.com), which acheived the most satisfactory speed of 33-75 images per second.
+
 Although this method of extraction and download is faster, the dataset is still <b>vast</b>, and therefore, the process is certainly <b>not</b> rapid.
 
 Once the dataset is fully completed, I will compress it into a zip file, and add it to this repo. In the meanwhile, feel free to do some datascraping yourself, or, if you'd like to contribute computational resources, see below*.
