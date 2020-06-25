@@ -63,5 +63,12 @@ I will respond by sending a slightly modified copy of the Python file, adapted t
     1.  Fixed issue #2 from v1.1
   * Issues:
     1.  Parser does not search for categories listed on split pages. If a page on Wikimedia Commons lists a large number of categories, it is often split into two or more pages. The parser is not designed to search for these yet.
+    2.  The improper parsing of categories from a Wikimedia Commons page results in undesired stopping of the data scraper program, which encounters an error upon this occurance
+
+- __v1.3__: <br/>
+  * Updates since v1.2:
+    1.  Fixed issue #2 from v1.2
+  * Issues:
+    1.  Parser does not search for categories listed on split pages. If a page on Wikimedia Commons lists a large number of categories, it is often split into two or more pages. The parser is not designed to search for these yet.
     
-- __v1.3__: Coming soon; will fix issue #1 from v1.2. Future versions will simply improve the speed of the data scraper.
+- __v1.4__: Coming soon; will fix issue #1 from v1.3. Future versions will simply improve upon the speed of the data scraper.
