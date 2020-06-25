@@ -5,15 +5,15 @@ Wikimedia Commons is an online repository of openly-available media files, such 
 
 As of June 24, 2020, the database consists of approximately 56.47 million files of image content of file format .jpg, .jpeg, or .png.
 
-The size of the dataset provides vast potential for use in machine learning. Another benefit is the detailed categorization of the contents of this media collection, allowing for rather simple data extraction for supervised learning methods.
+The size of the dataset provides vast potential for use in machine learning. Another benefit is the detailed categorization of the contents of this media collection, allowing for rather simple data extraction for supervised learning methods. In summary, the benefits of this dataset are fantastic organization of classes, wide variety of features, and a large number of images.
 
 There does, indeed, exist an API for data scraping Wikipedia Commons, however, it introduces an unsatisfying limit of 500 files at a time.
 
 This Python script, however, recursively iterates over all categories and subcategories of the Wikipedia Commons image dataset, extracting all valid images, and saving them approperiately in identically organized folders.
 
-The speed of content extracting matches, and potentially surpasses the rate of the official Wikipedia Commons Python API, thus providing benefits towards computational time required.
+The speed of content extracting matches, and likely surpasses the rate of the official Wikipedia Commons Python API, thus providing benefits towards computational time required.
 
-Although this method of extraction is faster, the dataset is <b>vast</b>, and therefore, the process is certainly <b>not</b> rapid.
+Although this method of extraction is faster, the dataset is still <b>vast</b>, and therefore, the process is certainly <b>not</b> rapid.
 
 Depending upon the computational power at your availability, the time required will vary greatly, however, it appears to collect nearly one thousand images, labeled and categorized approperiately, every minute and a half to three minutes.
 
