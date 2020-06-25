@@ -40,3 +40,28 @@ When the program begins (note that if you are running v1.0, it will not print an
 > I have tested the most recent version of the program on my computer/preferred location (programming notebook, etc.), and after a few minutes of running a computing average speed, it prints "__________ images downloaded per second". <br/>
 
 I will respond by sending a slightly modified copy of the Python file, adapted to data scrape a section of the database, with a size according to the amount of computational resources you stated were at your disposal and were willing to provide. Once this section is completed, send me the resulting "Images" folder compressed as a .zip file, and I will add your username to a new text file, credits.txt, alongside the amount of computational time you contributed.
+
+# Version History
+- v1.0: Initial data scraper.
+  Issues:
+    1.  Rare improper parsing of image directories, resulting in issues pertaining to directories not being found.
+    2.  Category parser does not pick up on items following a gray arrow symbol on the Wikimedia Commons website.
+    3.  Parser does not search for categories listed on split pages. If a page on Wikimedia Commons lists a large number of categories, it is often split into two or more pages. The parser is not designed to search for these yet.
+    4.  Console produces a large amount of text when run in the Mac terminal. Must add line to clear this status output before each time a new one is printed.
+    
+- v1.1
+  Updates since v1.0:
+    1.  Increased speed of data scraper
+    2.  Added line to clear the console each time a new status update was printed.
+    3.  Fixed issue #2 from v1.0
+  Issues:
+    1.  Parser does not search for categories listed on split pages. If a page on Wikimedia Commons lists a large number of categories, it is often split into two or more pages. The parser is not designed to search for these yet.
+    2.  Rare improper parsing of image directories, resulting in issues pertaining to directories not being found.
+ 
+- v1.2
+  Updates since v1.1:
+    1.  Fxied issue #2 from v1.1
+  Issues:
+    1.  Parser does not search for categories listed on split pages. If a page on Wikimedia Commons lists a large number of categories, it is often split into two or more pages. The parser is not designed to search for these yet.
+    
+- v1.3: Coming soon; will fix issue #1 from v1.2. Future versions will simply improve the speed of the data scraper.
