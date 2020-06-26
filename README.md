@@ -43,6 +43,8 @@ When the program begins (note that if you are running v1.0, it will not print an
 
 I will respond by sending a slightly modified copy of the Python file, adapted to data scrape a section of the database, with a size according to the amount of computational resources you stated were at your disposal and were willing to provide. Once this section is completed, send me the resulting "Images" folder compressed as a .zip file, and I will add your username to a new text file, credits.txt, alongside the amount of computational time you contributed.
 
+Nearly 1 million images have been scraped in the last day, and I will be posting a section of these soon.
+
 # Version History
 - __v1.0__: Initial data scraper. <br/>
   * Issues:
