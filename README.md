@@ -1,6 +1,6 @@
 # Wikimedia Commons Image Dataset
 
-<ins>The most organized image dataset for machine learning.</ins>
+<ins>A highly organized and potentially very large image dataset for ML.</ins>
 
 Wikimedia Commons is an online repository of openly-available media files, such as image, audio, video, and JSON files. You may view the current quantity of available content [here](https://commons.wikimedia.org/wiki/Special:MediaStatistics).
 
@@ -91,4 +91,4 @@ Nearly 1 million images have been scraped in the last day, and I will be posting
   * Issues:
     1.  Parser does not search for categories listed on split pages. If a page on Wikimedia Commons lists a large number of categories, it is often split into two or more pages. The parser is not designed to search for these yet.
 
-- __v1.6__: Coming soon; will fix issue #1 from v1.5. Future versions will simply improve upon the speed of the data scraper, and fix new bugs, if any are found.
+- __v1.6__: This version has been completed, I just forgot to post it. I'll do that soon. It fixes issue #1 from v1.5. v1.6 is the final version.
