@@ -12,9 +12,7 @@ There does, indeed, exist an API for data scraping Wikipedia Commons, however, i
 
 This Python script, however, recursively iterates over all categories and subcategories of the Wikipedia Commons image dataset, extracting all valid images, and saving them approperiately in identically organized folders.
 
-The speed of content extracting matches, and likely surpasses the rate of the official Wikipedia Commons Python API, thus providing benefits towards computational time required. On a Google Colab high-RAM runtime, it averages 14-17 images, downloaded, labeled, and categorized approperiately, each second.
-
-However, I suggest using the free GPU provided by [paperspace.com](https://www.paperspace.com), which acheived the most satisfactory speed of 33-75 images per second.
+I suggest using the free GPU provided by [paperspace.com](https://www.paperspace.com), which on the most recent version (v1.6), which uses multithreading, acheives between 70-100 images per second. Prior versions are slower and prone to bugs, so I do not suggest using older versions.
 
 Although this method of extraction and download is faster, the dataset is still <b>vast</b>, and therefore, the process is certainly <b>not</b> rapid.
 
