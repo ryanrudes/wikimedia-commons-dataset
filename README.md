@@ -89,4 +89,8 @@ Nearly 1 million images have been scraped in the last day, and I will be posting
   * Issues:
     1.  Parser does not search for categories listed on split pages. If a page on Wikimedia Commons lists a large number of categories, it is often split into two or more pages. The parser is not designed to search for these yet.
 
-- __v1.6__: This version has been completed, I just forgot to post it. I'll do that soon. It fixes issue #1 from v1.5. v1.6 is the final version.
+- __v1.6__: <br/>
+  * Updates since v1.5:
+    1.  Fixed issue #1 from v1.5
+    2.  Implemented multithreading, which increased the average rate of the data scraper by approx. 3-4x
+  * Issues: No known bugs have been found in this version thus far.
