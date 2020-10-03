@@ -14,12 +14,6 @@ This Python script, however, recursively iterates over all categories and subcat
 
 I suggest using the free GPU provided by [paperspace.com](https://www.paperspace.com), which on the most recent version (v1.6), which uses multithreading, acheives between 70-100 images per second. Prior versions are slower and prone to bugs, so I do not suggest using older versions.
 
-Although this method of extraction and download is faster, the dataset is still <b>vast</b>, and therefore, the process is certainly <b>not</b> rapid.
-
-Once the dataset is fully completed, I will compress it into a zip file, and add it to this repo. In the meanwhile, feel free to do some datascraping yourself, or, if you'd like to contribute computational resources, see below*.
-
-I highly recommend always using the most recent version of the data scraper; it will not require any additional installations.
-
 Setup is fairly simple:
 1.  cd to the approperiate directory, then install the required packages (if they are not installed already on your machine) with: ```pip3 install -r requirements.txt```
 2.  Next, create an empty folder, titled "Images", inside of the directory.
