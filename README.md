@@ -1,4 +1,4 @@
-# NOTE (Jun 16, 2021): This repository has been archived in favor of the more recent [dataset](https://github.com/Ryan-Rudes/wikimedia-commons-dataset), which is far superior
+# NOTE (June 16, 2021): This repository has been archived in favor of the more recent [dataset](https://github.com/Ryan-Rudes/wikimedia), which is far superior
 # Wikimedia Commons Image Dataset
 
 <ins>A highly organized and potentially very large image dataset for ML.</ins>
